@@ -35,12 +35,12 @@ default = ["std"]
 docsrs = []
 
 [dependencies.memchr]
-version = "2.3"
+version = "2.7.4"
 default-features = false
 
 [dev-dependencies]
 doc-comment = "0.3"
-proptest = "=1.0.0"
+proptest = "1.5.0"
 
 
 [package.metadata.docs.rs]
